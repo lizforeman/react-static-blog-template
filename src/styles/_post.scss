@@ -1,0 +1,27 @@
+.content {
+  padding: 2em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.post--item {
+  color: black;
+  &:not(:last-child) {
+    margin-bottom: 2em;
+    border-bottom: 0.05em solid #e6e6e6;
+  }
+
+  &-title {
+    display: inline-block;
+  }
+
+  & a {
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}
+
+.post--title {
+  color: #00729a;
+}
